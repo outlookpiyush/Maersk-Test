@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30001.183
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D0EC2906-4A57-4430-B3D7-3241EE70DD8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application.Test", "Application.Test", "{F3D1F34F-D561-46FC-8138-D137F859B299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKG.Maersk.Application", "PKG.Maersk.Test\PKG.Maersk.Application\PKG.Maersk.Application.csproj", "{6C6340DD-AE44-4139-9EE9-C8C5AE179B9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application.Lib", "Application.Lib", "{7E4E6079-C41F-498E-8547-391263F04CF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKG.Maersk.Application.Lib", "PKG.Maersk.Test\PKG.Maersk.Application.Lib\PKG.Maersk.Application.Lib.csproj", "{4BEBEDF4-5A94-4668-AD8C-D6125C7A5C83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKG.Maersk.Application.Test", "PKG.Maersk.Test\PKG.Maersk.Application.Test\PKG.Maersk.Application.Test.csproj", "{803B4C9E-B2E6-4432-88FB-266ABE87ADF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PKG.Maersk.Document", "PKG.Maersk.Document", "{6E92E8BA-CDD4-4596-9F2B-7284D5A5C35E}"
+	ProjectSection(SolutionItems) = preProject
+		PKG.Maersk.Test\PKG.Maersk.Document\PKG.Maersk.Application.Document.docx = PKG.Maersk.Test\PKG.Maersk.Document\PKG.Maersk.Application.Document.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C6340DD-AE44-4139-9EE9-C8C5AE179B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6340DD-AE44-4139-9EE9-C8C5AE179B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6340DD-AE44-4139-9EE9-C8C5AE179B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6340DD-AE44-4139-9EE9-C8C5AE179B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BEBEDF4-5A94-4668-AD8C-D6125C7A5C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEBEDF4-5A94-4668-AD8C-D6125C7A5C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BEBEDF4-5A94-4668-AD8C-D6125C7A5C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BEBEDF4-5A94-4668-AD8C-D6125C7A5C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{803B4C9E-B2E6-4432-88FB-266ABE87ADF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803B4C9E-B2E6-4432-88FB-266ABE87ADF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803B4C9E-B2E6-4432-88FB-266ABE87ADF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803B4C9E-B2E6-4432-88FB-266ABE87ADF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C6340DD-AE44-4139-9EE9-C8C5AE179B9E} = {D0EC2906-4A57-4430-B3D7-3241EE70DD8C}
+		{4BEBEDF4-5A94-4668-AD8C-D6125C7A5C83} = {7E4E6079-C41F-498E-8547-391263F04CF7}
+		{803B4C9E-B2E6-4432-88FB-266ABE87ADF8} = {F3D1F34F-D561-46FC-8138-D137F859B299}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6049A90-6E3B-408C-9554-E4A0639A4D60}
+	EndGlobalSection
+EndGlobal
